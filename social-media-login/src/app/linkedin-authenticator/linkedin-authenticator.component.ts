@@ -27,7 +27,6 @@ export class LinkedinAuthenticatorComponent implements OnInit {
     grant_type: 'authorization_code',
     code: '',
     client_id: '78q29vy802fu30',
-    client_secret: 'WPL_AP1.Eu92Z6O6QUJFdLJI.BsB0uQ==',
     redirect_uri: 'http://localhost:4200',
     // redirect_uri: 'https://oauth.pstmn.io/v1/callback',
   }
@@ -87,6 +86,13 @@ export class LinkedinAuthenticatorComponent implements OnInit {
       "&redirect_uri=" + this.linkedInCredentials.redirectUrl +
       "&scope=" + this.linkedInCredentials.scope
   }
+
+  // For backend stuff with google
+  //https://medium.com/@narendrakamath/create-an-angular-7-google-authenticator-node-js-web-app-with-two-factor-authentication-95e87af9356b
+
+  // https://learn.microsoft.com/en-us/linkedin/shared/authentication/authorization-code-flow?tabs=HTTPS1
+
+  // https://www.linkedin.com/developers/apps/221703016/auth
 
   // https://stackoverflow.com/questions/57019261/authentication-with-linkedin-api-and-oauth-2-0-in-angular-asp-net-core-2-0-appli
   // Probably need to do something with nodejs backend

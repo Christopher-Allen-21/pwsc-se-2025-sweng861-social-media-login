@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
+
 @Component({
   selector: 'google-authenticator',
   templateUrl: './google-authenticator.component.html',

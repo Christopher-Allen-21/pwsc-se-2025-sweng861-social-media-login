@@ -27,6 +27,7 @@ export class LinkedinAuthenticatorComponent implements OnInit {
     grant_type: 'authorization_code',
     code: '',
     client_id: '78q29vy802fu30',
+    client_secret: 'WPL_AP1.Eu92Z6O6QUJFdLJI.BsB0uQ==',
     redirect_uri: 'http://localhost:4200',
     // redirect_uri: 'https://oauth.pstmn.io/v1/callback',
   }
@@ -89,6 +90,7 @@ export class LinkedinAuthenticatorComponent implements OnInit {
 
   // For backend stuff with google
   //https://medium.com/@narendrakamath/create-an-angular-7-google-authenticator-node-js-web-app-with-two-factor-authentication-95e87af9356b
+  // https://medium.com/@kushalghosh9899/authenticate-with-google-in-angular-17-via-oauth2-196a98793f0c
 
   // https://learn.microsoft.com/en-us/linkedin/shared/authentication/authorization-code-flow?tabs=HTTPS1
 

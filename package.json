@@ -1,0 +1,22 @@
+{
+  "name": "social-media-backend",
+  "version": "1.0.0",
+  "description": "![image](https://github.com/user-attachments/assets/8b658dbd-984f-49e4-9208-91851a8ad485)\r ### Choose Account to Sign into\r ![image](https://github.com/user-attachments/assets/041b9048-3542-44c3-9b92-23d9e1da040c)\r ### Choose Profile and Enter Password\r ![image](https://github.com/user-attachments/assets/0d911ec6-0750-4bf5-a668-a355bebf9d8c)\r ### Click \"Continue\"\r ![image](https://github.com/user-attachments/assets/5c44fa28-7755-456d-b088-92abcfa74e3b)\r ![image](https://github.com/user-attachments/assets/fa5ad8b8-b2aa-4b0f-a280-f9d25d40ee5b)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christopher-Allen-21/pwsc-se-2025-sweng861-social-media-login.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Christopher-Allen-21/pwsc-se-2025-sweng861-social-media-login/issues"
+  },
+  "homepage": "https://github.com/Christopher-Allen-21/pwsc-se-2025-sweng861-social-media-login#readme",
+  "dependencies": {
+    "mongodb": "^6.12.0"
+  }
+}

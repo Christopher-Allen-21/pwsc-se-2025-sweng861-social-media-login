@@ -13,7 +13,7 @@ httpClient: HttpClient
     response_type: 'code',
     client_id: '78q29vy802fu30',
     redirect_uri: 'http://localhost:4200/',
-    scope: 'profile'
+    scope: 'liteprofile%20emailaddress%20w_member_social'
   }
 
   constructor(httpClient: HttpClient) {
